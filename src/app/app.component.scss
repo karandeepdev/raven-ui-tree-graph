@@ -1,0 +1,35 @@
+.nodes { 
+    fill: #fff; 
+    stroke: steelblue; 
+    stroke-width: 1.5px; 
+} 
+.nodes { 
+    font: 20px sans-serif; 
+} 
+.links { 
+    fill: none; 
+    stroke: #ccc; 
+    stroke-width: 1.5px; 
+} 
+line { stroke: black; } 
+
+.zoom{  
+    height:100vh;  
+    width:100%;  
+    display:grid;  
+    place-items:center;  
+    position:fixed;  
+    top:0;  
+    left:0;
+}
+
+.workspace {
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    font: 700 12px system-ui;
+}
